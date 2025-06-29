@@ -1,0 +1,56 @@
+名字 大黑塔
+生命 2222
+攻击 1208
+防御 822
+速度 99
+生命百分比 1022
+攻击百分比 1873
+防御百分比 247
+速度百分比 39
+暴击 68.7
+爆伤 68.1
+击破特攻 23.9
+效果命中 11.2
+效果抵抗 8.6
+能量 220
+能量恢复速率 100
+属性伤害提高 61.2
+阵营 1
+普攻 开窍了吗
+类型 单攻
+战技点 1
+charge s 20
+att t 90
+end
+战技 格局打开
+类型 扩散
+战技点 -1
+charge s 30
+att t 210
+eff t add TheHerta-Interpretation 100 1 -1
+att t+1 140
+att t-1 140
+att t+2 70
+att t-2 70
+end
+终结技 早说了是魔法吧
+类型 群攻
+战技点 0
+charge s 5
+eff s add TheHerta-Inspiration 100 1 -1
+empty
+end
+强化普攻 NULL
+强化战技 我有一个大胆的想法
+条件 TheHerta-Inspiration
+类型 群攻
+战技点 0
+eff s remove TheHerta-Inspiration 100 1-1
+att t 240
+eff s add TheHerta-Inspiration 100 1 -1
+att t+1 160
+att t-1 160
+att t+2 80
+att t-2 80
+att e 40
+EOF
